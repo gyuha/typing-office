@@ -1,4 +1,4 @@
-import{s as L,o as re,a as p,W as E,P as T,I as v,B as R,b as se,L as U,C as ie}from"./scene-DZuwSDyg.js";function le({source:t,sentence:o,live:n=!1,marks:r=[]}={}){const d=n?'<input class="pv-field" type="text" autocomplete="off" spellcheck="false" placeholder="위 문장을 타이핑 하세요." aria-label="문장 입력" />':'<div class="pv-field pv-fake"><span class="pv-caret"></span>위 문장을 타이핑 하세요.</div>';return`
+import{s as L,o as re,a as p,W as E,P as T,I as v,B as R,b as se,L as U,C as ie}from"./scene-DCa_t4hC.js";function le({source:t,sentence:o,live:n=!1,marks:r=[]}={}){const d=n?'<input class="pv-field" type="text" autocomplete="off" spellcheck="false" placeholder="위 문장을 타이핑 하세요." aria-label="문장 입력" />':'<div class="pv-field pv-fake"><span class="pv-caret"></span>위 문장을 타이핑 하세요.</div>';return`
   <div class="panel">
     <div class="pv-display">
       <img class="pv-bg" alt="" src="${L(re())}" />
@@ -25,7 +25,7 @@ import{s as L,o as re,a as p,W as E,P as T,I as v,B as R,b as se,L as U,C as ie}
       <div class="pv-line"></div>
       <div class="pv-bottom">
         <div class="pv-bar pv-hp" title="체력"><i></i></div>
-        <a class="pv-btn" href="/Help/Help_Kor.html" title="도움말">${p(v.help.rows,v.help.palette,3)}</a>
+        <a class="pv-btn" href="Help/Help_Kor.html" title="도움말">${p(v.help.rows,v.help.palette,3)}</a>
         <a class="pv-btn" href="#/" title="홈">${p(v.home.rows,v.home.palette,3)}</a>
         <a class="pv-btn" href="#/" title="업무 선택">${p(v.gear.rows,v.gear.palette,3)}</a>
         <div class="pv-bar pv-mp" title="커피 게이지"><i></i></div>

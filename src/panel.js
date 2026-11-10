@@ -34,7 +34,7 @@ export function panelHTML({ source, sentence, live = false, marks = [] } = {}) {
       <div class="pv-line"></div>
       <div class="pv-bottom">
         <div class="pv-bar pv-hp" title="체력"><i></i></div>
-        <a class="pv-btn" href="/Help/Help_Kor.html" title="도움말">${sprite(ICONS.help.rows, ICONS.help.palette, 3)}</a>
+        <a class="pv-btn" href="Help/Help_Kor.html" title="도움말">${sprite(ICONS.help.rows, ICONS.help.palette, 3)}</a>
         <a class="pv-btn" href="#/" title="홈">${sprite(ICONS.home.rows, ICONS.home.palette, 3)}</a>
         <a class="pv-btn" href="#/" title="업무 선택">${sprite(ICONS.gear.rows, ICONS.gear.palette, 3)}</a>
         <div class="pv-bar pv-mp" title="커피 게이지"><i></i></div>
