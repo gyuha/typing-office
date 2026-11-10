@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이핑오피스 TypingOffice</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <div id="app">
+    <div class="stage" aria-hidden="true">
+      <div class="stage-art"></div>
+      <div class="chars"></div>
+    </div>
+    <div class="page">
+      <header class="hdr">
+        <p class="logo"><img class="logo-img" alt="" /><span>TypingOffice</span></p>
+        <ul class="nav">
+          <li><a href="#/" data-nav="home">Home</a></li>
+          <li><a href="#/ranking" data-nav="ranking" id="rankingMenu">Ranking</a></li>
+        </ul>
+        <button class="login" id="loginCheckButton" type="button">Login</button>
+        <a class="help" href="/Help/Help_Kor.html" title="도움말"><button id="help" type="button" tabindex="-1">?</button></a>
+      </header>
+      <div id="view"></div>
+      <div id="dialogs"></div>
+    </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
