@@ -2,6 +2,9 @@ import './base.css';
 import './help.css';
 import { sprite, svgUrl, LOGO, WORKER, PAPERS, ICONS } from './pixel.js';
 import { officeDisplay } from './scene.js';
+import { unlock } from './gate.js';
+
+await unlock();
 
 document.querySelector('.logo-img').src = svgUrl(sprite(LOGO.rows, LOGO.palette, 10));
 

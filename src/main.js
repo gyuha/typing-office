@@ -6,6 +6,9 @@ import { officeBackdrop } from './scene.js';
 import { mountGame } from './game.js';
 import { PACKS } from './sentences.js';
 import { getName, setName, getRecords, getPack, setPack } from './store.js';
+import { unlock } from './gate.js';
+
+await unlock();
 
 // Pixel art is shown as background pictures (no extra elements on the page).
 const pic = (svg, w, h) => `background-image:url("${svgUrl(svg)}");background-size:100% 100%;width:${w}px;height:${h}px`;
